@@ -1,0 +1,12 @@
+[package]
+name = "nannou-example"
+version = "0.1.0"
+authors = ["Sitt Guruvanich <aekazitt+github@gmail.com"]
+edition = "2021"
+
+[dependencies]
+nannou = "0.17" 
+
+[patch.crates-io.wgpu] # otherwise does not work on macOS M1+
+git = "https://github.com/mitchmindtree/wgpu-rs"
+branch = "0.8-as-0.9"
