@@ -17,5 +17,11 @@ cargo install
 ## Run `src/main.rs`
 
 ```sh
-cargon run --release
+cargo run --release
+```
+
+## Run `examples/scaffold.rs`
+
+```sh
+cargo run --example scaffold --release
 ```
