@@ -25,3 +25,9 @@ cargo run --release
 ```sh
 cargo run --example scaffold --release
 ```
+
+## Run `examples/lines.rs`
+
+```sh
+cargon run --example lines --release
+```
